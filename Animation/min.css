@@ -1,0 +1,13 @@
+@keyframes slide {
+    from,
+    to {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(30px);
+    }
+}
+#pot img:hover {
+    cursor: pointer;
+    animation: slide 2s;
+}

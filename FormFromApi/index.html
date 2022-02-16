@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Form From Api</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form placeholder">
+
+        </div>
+
+        <button class="btn" onclick="getPosts(10)">
+            Click me!
+
+        </button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal" hidden>
+
+            <!-- Modal content -->
+            <div id="modal-content" class="modal-content">
+                <p class="modal-content_text">Some text in the Modal..</p>
+                <span class="close" onclick="hideModal()">&times;</span>
+                <div id="posts" class="posts-container"></div>
+            </div>
+
+        </div>
+
+    </div>
+    <script async src="min.js"></script>
+    <!-- <script async src="solution.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+</body>
+
+</html>
